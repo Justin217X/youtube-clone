@@ -1,8 +1,14 @@
 import React from "react";
-import './youtube.css'
+import Categories from "./Categories";
+import Sidebar from "./Sidebar";
+import './youtube.css';
 
 function Youtube() {
     return (
+        <div className="container">
+        <Sidebar />
+        <div className="container2">
+        <Categories />
         <div className="videos">
             <section className="video-section">
                 <article className="video-container">
@@ -374,6 +380,8 @@ function Youtube() {
                     </div>
                 </article>
             </section>
+        </div>
+        </div>
         </div>
     )
 }

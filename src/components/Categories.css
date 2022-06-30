@@ -1,7 +1,10 @@
 .categories {
-    padding: 1rem 2rem;
+    display: flex;
+    padding: .9rem 2rem;
     border-top: 1px solid #999;
     border-bottom: 1px solid #999;
+    overflow-x: auto;
+    max-height: 4rem;
 }
 
 .category-section {
